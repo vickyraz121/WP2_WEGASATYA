@@ -23,4 +23,5 @@ class Web extends CI_Controller{
         $this->load->view('v_footer' , $data);
 
     }
+
 }

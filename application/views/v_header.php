@@ -16,7 +16,7 @@
             <nav>
                 <ul>
                     <li><a href="<?php echo base_url().'index.php/web' ?>">Home</a></li>
-                    <l1><a href="<?php echo base_url().'index.php/web/about'?>">About</a><li>
+                    <l1><a href="<?php echo base_url().'web/about'?>">About</a><li>
                 </ul>
             </nav>
             <div class="clear"></div>

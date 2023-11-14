@@ -23,7 +23,9 @@ method="post">
             <tr>
                 <th>Kode MTK</th>
                 <th>:</th>
-                <td><input type="text" name="kode" id="kode">
+                <td>
+                    <input type="text" name="kode" id="kode">
+                    <?php echo form_error('kode'); ?>
                 </td>
             </tr>
             <tr> 
@@ -31,6 +33,7 @@ method="post">
                 <td>:</td>
                 <td> 
                     <input type="text" name="nama" id="nama">
+                    <?php echo form_error('nama'); ?>
                 </td>
             </tr>
             <tr>
@@ -42,7 +45,9 @@ method="post">
                         <option value="2">2</option>
                         <option value="3">3</option>
                         <option value="4">4</option>
+                        <option value="15">15</option>
                     </select>
+                    <?php echo form_error('sks'); ?>
                 </td>
             </tr>
             <tr>
